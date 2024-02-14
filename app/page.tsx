@@ -81,33 +81,33 @@ const App: React.FC = () => {
 
 
 
-<div className='p-5 bg-white lg:mt-20'>
+<div className='lg:p-5 bg-white lg:mt-20 p-2'>
 
   <div className="py-4 bg-blue-200 rounded-2xl drop-shadow-xl">
     <h2 className="text-black font-bold text-4xl text-center mb-10 pt-10">Key Features</h2>
-      <div className="grid grid-cols-3 gap-3 text-lg justify-items-center">
-        <div>
-          <img src={Image3.src} alt="Quizzes" className='size-1/3 ml-14 my-4 rounded-sm' />
+      <div className="grid grid-cols-3 lg:gap-3 text-lg lg:justify-items-center gap-9">
+        <div className='ml-4'>
+          <img src={Image3.src} alt="Quizzes" className='size-1/3 lg:ml-14 my-4 rounded-sm ml-5' />
           Interactive Quizzes
           </div>
-        <div>
-          <img src={Image4.src} alt="Feedback" className='size-1/3 ml-14 my-4 rounded-sm' />
+        <div className='ml-2'>
+          <img src={Image4.src} alt="Feedback" className='size-1/3 lg:ml-14 my-4 rounded-sm ml-4' />
           Real-time Feedback
           </div>
-        <div>
-          <img src={Image5.src} alt="Coverage" className='size-1/3 ml-24 my-4 rounded-sm' />
+        <div className='ml-0'>
+          <img src={Image5.src} alt="Coverage" className='size-1/3 lg:ml-24 my-4 rounded-sm ml-8' />
           Comprehensive Subject Coverage
           </div>
-        <div>
-          <img src={Image6.src} alt="Engagement" className='size-1/3 ml-16 my-4 rounded-sm' />
+        <div className='ml-4'>
+          <img src={Image6.src} alt="Engagement" className='size-1/3 lg:ml-16 my-4 rounded-sm ml-7' />
           Community Engagement
           </div>
-        <div>
-          <img src={Image7.src} alt="Recommendations" className='size-1/3 ml-20 my-4 rounded-sm' />
+        <div className='ml-0'>
+          <img src={Image7.src} alt="Recommendations" className='size-1/3 lg:ml-20 my-4 rounded-sm ml-9' />
           AI-Powered Recommendations
           </div>
-        <div>
-          <img src={Image8.src} alt="Interface" className='size-1/3 ml-20 my-4 rounded-sm' />
+        <div className='ml-0'>
+          <img src={Image8.src} alt="Interface" className='size-1/3 lg:ml-20 my-4 rounded-sm ml-8' />
           User-Friendly Interface
           </div>
       </div>
