@@ -39,7 +39,7 @@ import Link from 'next/link';
 
 const App: React.FC = () => {
   return (
-        <div className="bg-white">
+        <div className="bg-white mx-6">
 
         <div className='p-3 pb-0 pt-1 bg-white'>
           
@@ -73,7 +73,7 @@ const App: React.FC = () => {
                   </div>
               </div>
 
-              <div  className="lg:size-auto md:size-auto mx-auto lg:mr-20">
+              <div  className="lg:size-auto lg:max-w-2xl md:max-w-sm mx-auto">
               <img src={Image9.src} alt="laptop" />
               </div>
               
@@ -83,34 +83,33 @@ const App: React.FC = () => {
 
 <div className='lg:p-5 bg-white lg:mt-20 p-2'>
 
-  <div className="py-4 bg-blue-200 rounded-2xl drop-shadow-xl">
+  <div className="py-4 bg-blue-200 rounded-2xl drop-shadow-xl mx-5">
     <h2 className="text-black font-bold text-4xl text-center mb-10 pt-10">Key Features</h2>
-      <div className="grid grid-cols-3 lg:gap-3 text-lg lg:justify-items-center gap-9">
-        <div className='ml-4'>
+      <div className="grid grid-cols-3 lg:gap-3 lg:justify-items-center gap-3 text-xs md:text-lg">
+        <div className='ml-5 flex flex-auto justify-center flex-col text-justify'>
           <img src={Image3.src} alt="Quizzes" className='size-1/3 lg:ml-14 my-4 rounded-sm ml-5' />
-          Interactive Quizzes
-          </div>
-        <div className='ml-2'>
-          <img src={Image4.src} alt="Feedback" className='size-1/3 lg:ml-14 my-4 rounded-sm ml-4' />
-          Real-time Feedback
-          </div>
-        <div className='ml-0'>
+          <span>Interactive Quizzes</span>
+        </div>
+        <div className='ml-0 flex flex-auto justify-center flex-col text-justify'>
+          <img src={Image4.src} alt="Feedback" className='size-1/3 lg:ml-14 my-4 rounded-sm ml-6' />
+          <span>Real-time Feedback</span>
+        </div>
+        <div className='ml-0 flex flex-auto justify-center flex-col text-justify'>
           <img src={Image5.src} alt="Coverage" className='size-1/3 lg:ml-24 my-4 rounded-sm ml-8' />
-          Comprehensive Subject Coverage
-          </div>
-        <div className='ml-4'>
+          <span>Comprehensive Subject Coverage</span>
+        </div>
+        <div className='ml-4 flex flex-auto justify-center flex-col text-justify'>
           <img src={Image6.src} alt="Engagement" className='size-1/3 lg:ml-16 my-4 rounded-sm ml-7' />
-          Community Engagement
-          </div>
-        <div className='ml-0'>
-          <img src={Image7.src} alt="Recommendations" className='size-1/3 lg:ml-20 my-4 rounded-sm ml-9' />
-          AI-Powered Recommendations
-          </div>
-        <div className='ml-0'>
-          <img src={Image8.src} alt="Interface" className='size-1/3 lg:ml-20 my-4 rounded-sm ml-8' />
-          User-Friendly Interface
-          </div>
-      </div>
+          <span>Community Engagement</span>
+        </div>
+        <div className='ml-0 flex flex-auto justify-center flex-col text-justify'>
+          <img src={Image7.src} alt="Recommendations" className='size-1/3 lg:ml-20 my-4 rounded-sm ml-7' />
+          <span>AI-Powered Recommendations</span>
+        </div>
+        <div className='ml-0 flex flex-auto justify-center flex-col text-justify'>
+          <img src={Image8.src} alt="Interface" className='size-1/3 lg:ml-20 my-4 rounded-sm ml-6' />
+          <span>User-Friendly Interface</span>
+        </div>
   </div>
 
 </div>
@@ -212,6 +211,7 @@ const App: React.FC = () => {
         <p>Phone: 123-456-7890</p>
       </footer>
     </div>
+  </div>
   );
 }
 
