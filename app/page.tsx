@@ -39,7 +39,8 @@ import Link from 'next/link';
 
 const App: React.FC = () => {
   return (
-        <div className="bg-white mx-6">
+    <div className="flex justify-center">
+        <div className="bg-white ">
 
         <div className='p-3 pb-0 pt-1 bg-white'>
           
@@ -212,6 +213,7 @@ const App: React.FC = () => {
       </footer>
     </div>
   </div>
+</div>
   );
 }
 
