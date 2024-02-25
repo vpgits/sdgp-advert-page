@@ -1,107 +1,109 @@
-import React from 'react';
-import 'tailwindcss/tailwind.css';
-import Link from 'next/link';
-import { Button } from '../ui/button';
-import Image from 'next/image';
-import InteractiveQuizzes from '../../public/InteractiveQuizzes.png';
-import Feedback from '../../public/Real-time-Feedback.png';
-import conprehensiveCoverage from '../../public/Comprehensive-Subject-Coverage.png';
-import communityEngagement from '../../public/Community-Engagement.png';
-import recommendations from '../../public/AI-Powered-Recommendations.png';
-import userinterface from '../../public/User-Friendly-Interface.png';
+import React from "react";
+import "tailwindcss/tailwind.css";
+import Link from "next/link";
+import { Button } from "../ui/button";
+import Image from "next/image";
+import InteractiveQuizzes from "../../public/InteractiveQuizzes.png";
+import Feedback from "../../public/Real-time-Feedback.png";
+import conprehensiveCoverage from "../../public/Comprehensive-Subject-Coverage.png";
+import communityEngagement from "../../public/Community-Engagement.png";
+import recommendations from "../../public/AI-Powered-Recommendations.png";
+import userinterface from "../../public/User-Friendly-Interface.png";
 
-
-
-
-export default function AdvertPage(){
+export default function AdvertPage() {
   return (
-   
-    <div className="flex justify-center">
-            
-            <div className='mt-20'>
-                <div className='text-center text-5xl font-bold'>
-                Elevate Your Learning Experience<br></br>
-                        with Quizifyme
-                </div>
-                <div className='text-center text-xl font-medium mt-8'>
-                AI quizzes Generator
-                </div>
+    <div className="flex flex-auto w-full justify-center">
+      <div className="mt-20">
+        <div className="text-center text-5xl font-bold">
+          Elevate Your Learning Experience<br></br>
+          with Quizifyme
+        </div>
+        <div className="text-center text-xl font-medium mt-8">
+          AI quizzes Generator
+        </div>
 
-                <div className='text-center mt-8'>
-                <Link href=''>
-                <Button className='bg-blue-400 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded-full'>Get Started</Button>
-                </Link>
+        <div className="text-center mt-8">
+          <Link href="">
+            <Button className="bg-blue-400 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded-full">
+              Get Started
+            </Button>
+          </Link>
 
-                
-                <div className='text-center mt-96'>
-                    <div className='text-center text-3xl font-bold pb-7'>
-                    Features
-                    </div>
+          <div className="text-center mt-96">
+            <div className="text-center text-3xl font-bold pb-7">Features</div>
 
-                    <div>
-                        <div className='grid grid-cols-3 gap-4 mt-8'>
-                            <div className='text-center'>
-                            <Image className='ml-20 mb-5' src={InteractiveQuizzes} alt="Quizzes" width={100} height={100} />
-                            <div>Interactive Quizzes</div>
-                            </div>
-                            <div className='text-center'>
-                            <Image className='ml-7 mb-5' src={Feedback} alt="Feedback" width={200} height={200} />
-                            <div>Real-time Feedback</div>
-                            </div>
-                            <div className='text-center'>
-                            <Image className='ml-14 mb-5' src={conprehensiveCoverage} alt="Coverage" width={122} height={122} />
-                            <div>Comprehensive Subject Coverage</div>
-                            </div>
-                            <div className='text-center'>
-                            <Image className='ml-20 mb-5' src={communityEngagement} alt="Engagement" width={100} height={100} />
-                            <div>Community Engagement</div>
-                            </div>
-                            <div className='text-center'>
-                            <Image className='ml-16 ' src={recommendations} alt="Recommendations" width={100} height={100} />
-                            <div>AI-Powered Recommendations</div>
-                            </div>
-                            <div className='text-center'>
-                            <Image className='ml-20 mb-2' src={userinterface} alt="Interface" width={100} height={100} />
-                            <div>User-Friendly Interface</div>
-                            </div>
-                        </div>
-                    </div>
-
+            <div>
+              <div className="flex flex-auto flex-col items-center justify-center">
+                <div className="flex flex-auto flex-col items-center justify-center">
+                  <Image
+                    src={InteractiveQuizzes}
+                    alt="Quizzes"
+                    width={100}
+                    height={100}
+                  />
+                  <p>Interactive Quizzes</p>
                 </div>
 
-
-
-
+                <div className="flex flex-auto flex-col items-center justify-center">
+                  <Image
+                    src={Feedback}
+                    alt="Feedback"
+                    width={100}
+                    height={100}
+                  />
+                  <p>Real-time Feedback</p>
                 </div>
 
+                <div className="flex flex-auto flex-col items-center justify-center">
+                  <Image
+                    src={conprehensiveCoverage}
+                    alt="Coverage"
+                    width={100}
+                    height={100}
+                  />
+                  <p>Comprehensive Subject Coverage</p>
+                </div>
 
-                
+                <div className="flex flex-auto flex-col items-center justify-center">
+                  <Image
+                    src={communityEngagement}
+                    alt="Engagement"
+                    width={100}
+                    height={100}
+                  />
+                  <p>Community Engagement</p>
+                </div>
 
+                <div className="flex flex-auto flex-col items-center justify-center">
+                  <Image
+                    src={recommendations}
+                    alt="Recommendations"
+                    width={100}
+                    height={100}
+                  />
+                  <p>AI-Powered Recommendations</p>
+                </div>
 
-
-
+                <div className="flex flex-auto flex-col items-center justify-center">
+                  <Image
+                    src={userinterface}
+                    alt="Interface"
+                    width={100}
+                    height={100}
+                  />
+                  <p>User-Friendly Interface</p>
+                </div>
+              </div>
             </div>
-      
-           
+          </div>
+        </div>
+      </div>
     </div>
-
-    
-
   );
 }
 
-
-
-
-
-
-
-
-
-
-
-
-   {/* <div className='p-3 pb-0 pt-1 bg-white'>
+{
+  /* <div className='p-3 pb-0 pt-1 bg-white'>
             
             <nav className="bg-blue-400 text-white text-center py-2 rounded-3xl opacity-90 shadow-2xl">
 
@@ -268,6 +270,5 @@ export default function AdvertPage(){
             <p>Email: info@quizfime.com</p>
             <p>Phone: 123-456-7890</p>
         </footer>
-            </div> */}
-
-
+            </div> */
+}
