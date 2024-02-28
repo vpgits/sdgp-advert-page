@@ -21,7 +21,7 @@ const ButtonAsChild = () => {
 const Footer = () => {
   return (
     <>
-      <footer className="text-sm bg-slate-900 text-white flex flex-auto flex-col md:flex-row items-center justify-evenly mt-5 md:mt-20">
+      <footer className="text-sm bg-slate-900 text-white flex flex-auto flex-col md:flex-row items-center justify-evenly mt-5 md:mt-20 w-screen">
         <div className="space-y-4  md:w-1/3 m-10 ">
           <h3 className="text-lg font-semibold mt-10 text-center">
             {" "}

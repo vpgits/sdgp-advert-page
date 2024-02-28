@@ -31,21 +31,17 @@ export default function AdvertPage() {
               Get Started
             </Button>
           </Link>
-          
+
           <div className="mt-48">
-          <UserFeedback />
+            <UserFeedback />
           </div>
-          
-
-
 
           <div className="mt-48">
             <div className="text-3xl font-bold pb-7">Features</div>
-
             <div>
               <div className="lg:flex lg:flex-auto lg:flex-row justify-center">
                 <div className="flex flex-auto flex-col items-center justify-center">
-                  <Image 
+                  <Image
                     src={InteractiveQuizzes}
                     alt="Quizzes"
                     className="w-24 h-24" // Adjust the width and height as needed
@@ -68,9 +64,11 @@ export default function AdvertPage() {
                     alt="Coverage"
                     className="w-24 h-24" // Adjust the width and height as needed
                   />
-                  <p className="lg:mt-1 my-3 mb-6">Comprehensive <br></br> Subject Coverage</p>
+                  <p className="lg:mt-1 my-3 mb-6">
+                    Comprehensive <br></br> Subject Coverage
+                  </p>
                 </div>
-              </div>  
+              </div>
               <div className="lg:flex lg:flex-auto lg:flex-row justify-center">
                 <div className="flex flex-auto flex-col items-center justify-center">
                   <Image
@@ -87,7 +85,9 @@ export default function AdvertPage() {
                     alt="Recommendations"
                     className="w-24 h-24" // Adjust the width and height as needed
                   />
-                  <p className="lg:mt-4 my-3 mb-6">AI-Powered <br></br> Recommendations</p>
+                  <p className="lg:mt-4 my-3 mb-6">
+                    AI-Powered <br></br> Recommendations
+                  </p>
                 </div>
 
                 <div className="flex flex-auto flex-col items-center justify-center">
@@ -100,10 +100,10 @@ export default function AdvertPage() {
                 </div>
               </div>
             </div>
-          
-          <FAQ/>
-          
-          <Footer/>
+
+            <FAQ />
+
+            <Footer />
           </div>
         </div>
       </div>
