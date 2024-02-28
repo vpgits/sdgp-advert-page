@@ -10,6 +10,8 @@ import communityEngagement from "../../public/Community-Engagement.png";
 import recommendations from "../../public/AI-Powered-Recommendations.png";
 import userinterface from "../../public/User-Friendly-Interface.png";
 import UserFeedback from "../feedback";
+import FAQ from "../Faq";
+import Footer from "../footer";
 
 export default function AdvertPage() {
   return (
@@ -98,6 +100,10 @@ export default function AdvertPage() {
                 </div>
               </div>
             </div>
+          
+          <FAQ/>
+          
+          <Footer/>
           </div>
         </div>
       </div>
