@@ -9,6 +9,7 @@ import conprehensiveCoverage from "../../public/Comprehensive-Subject-Coverage.p
 import communityEngagement from "../../public/Community-Engagement.png";
 import recommendations from "../../public/AI-Powered-Recommendations.png";
 import userinterface from "../../public/User-Friendly-Interface.png";
+import UserFeedback from "../feedback";
 
 export default function AdvertPage() {
   return (
@@ -28,70 +29,72 @@ export default function AdvertPage() {
               Get Started
             </Button>
           </Link>
+          
+          <div className="mt-48">
+          <UserFeedback />
+          </div>
+          
 
-          <div className="text-center mt-96">
-            <div className="text-center text-3xl font-bold pb-7">Features</div>
+
+
+          <div className="mt-48">
+            <div className="text-3xl font-bold pb-7">Features</div>
 
             <div>
-              <div className="flex flex-auto flex-col items-center justify-center">
+              <div className="lg:flex lg:flex-auto lg:flex-row justify-center">
                 <div className="flex flex-auto flex-col items-center justify-center">
-                  <Image
+                  <Image 
                     src={InteractiveQuizzes}
                     alt="Quizzes"
-                    width={100}
-                    height={100}
+                    className="w-24 h-24" // Adjust the width and height as needed
                   />
-                  <p>Interactive Quizzes</p>
+                  <p className="lg:mt-4 my-3 mb-6">Interactive Quizzes</p>
                 </div>
 
                 <div className="flex flex-auto flex-col items-center justify-center">
                   <Image
                     src={Feedback}
                     alt="Feedback"
-                    width={100}
-                    height={100}
+                    className="w-24 h-24" // Adjust the width and height as needed
                   />
-                  <p>Real-time Feedback</p>
+                  <p className="lg:mt-4 my-3 mb-6">Real-time Feedback</p>
                 </div>
 
                 <div className="flex flex-auto flex-col items-center justify-center">
                   <Image
                     src={conprehensiveCoverage}
                     alt="Coverage"
-                    width={100}
-                    height={100}
+                    className="w-24 h-24" // Adjust the width and height as needed
                   />
-                  <p>Comprehensive Subject Coverage</p>
+                  <p className="lg:mt-1 my-3 mb-6">Comprehensive <br></br> Subject Coverage</p>
                 </div>
-
+              </div>  
+              <div className="lg:flex lg:flex-auto lg:flex-row justify-center">
                 <div className="flex flex-auto flex-col items-center justify-center">
                   <Image
                     src={communityEngagement}
                     alt="Engagement"
-                    width={100}
-                    height={100}
+                    className="w-24 h-24" // Adjust the width and height as needed
                   />
-                  <p>Community Engagement</p>
+                  <p className="lg:mt-4 my-3 mb-6">Community Engagement</p>
                 </div>
 
                 <div className="flex flex-auto flex-col items-center justify-center">
                   <Image
                     src={recommendations}
                     alt="Recommendations"
-                    width={100}
-                    height={100}
+                    className="w-24 h-24" // Adjust the width and height as needed
                   />
-                  <p>AI-Powered Recommendations</p>
+                  <p className="lg:mt-4 my-3 mb-6">AI-Powered <br></br> Recommendations</p>
                 </div>
 
                 <div className="flex flex-auto flex-col items-center justify-center">
                   <Image
                     src={userinterface}
                     alt="Interface"
-                    width={100}
-                    height={100}
+                    className="w-24 h-24" // Adjust the width and height as needed
                   />
-                  <p>User-Friendly Interface</p>
+                  <p className="lg:mt-4 my-3 mb-6">User-Friendly Interface</p>
                 </div>
               </div>
             </div>
