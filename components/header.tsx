@@ -24,11 +24,11 @@ export default async function Header() {
             <Link className="text-sm font-medium hover:underline" href="/">
               Home
             </Link>
-            <Link
-              href="/dashboard"
-              className="text-sm font-medium hover:underline "
-            >
-              Dashboard
+              <Link
+                href="#review"
+                className="text-sm font-medium hover:underline "
+              >
+              Reviwes
             </Link>
             {/* <div className="absolute hidden group-hover:block bg-white shadow-md py-2 px-4 top-full mt-1">
               <Link
@@ -55,19 +55,24 @@ export default async function Header() {
 
             <Link
               className="text-sm font-medium hover:underline"
-              href="/profile"
+              href="#features"
             >
-              Profile
+              Features
             </Link>
-            <Link className="text-sm font-medium hover:underline" href="#">
-              About
-            </Link>
+            
             <Link
               className="text-sm font-medium hover:underline"
-              href="/contact-us"
+              href="#FAQ"
             >
-              Contact Us
+             FAQ
             </Link>
+
+            <Link 
+              className="text-sm font-medium hover:underline"
+              href="#about">
+              About
+            </Link>
+  
           </nav>
           {/* {!loggedIn ? (
             <Link href="/login">
