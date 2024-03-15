@@ -15,29 +15,33 @@ import Footer from "../footer";
 
 export default function AdvertPage() {
   return (
-    <div className="flex flex-auto w-full justify-center">
-      <div className="mt-20">
-        <div className="text-center text-5xl font-bold">
-          Elevate Your Learning Experience<br></br>
-          with Quizifyme
-        </div>
-        <div className="text-center text-xl font-medium mt-8">
-          AI quizzes Generator
+    <div className="flex flex-auto w-full justify-center" >
+      <div className=" mt-56 " >
+        <div className="text-center">
+            <div className="text-5xl font-bold">
+              Elevate Your Learning Experience<br></br>
+              with Quizifyme
+            </div>
+            <div className="text-xl font-medium mt-8">
+              AI quizzes Generator
+            </div>
+            <Link href="https://quizzifyme.venura.dev/" >
+                <Button className="bg-blue-400 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded-full mt-10">
+                  Get Started
+                </Button>
+            </Link>
         </div>
 
-        <div className="text-center mt-8">
-          <Link href="">
-            <Button className="bg-blue-400 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded-full">
-              Get Started
-            </Button>
-          </Link>
 
-          <div className="mt-48">
+          <div id="review"></div>
+          <div  className=" mt-56 " >
             <UserFeedback />
           </div>
 
+          
+          <div id='features'></div>
           <div className="mt-48">
-            <div className="text-3xl font-bold pb-7">Features</div>
+            <div className="text-3xl font-bold pb-7 text-center">Features</div>
             <div>
               <div className="lg:flex lg:flex-auto lg:flex-row justify-center">
                 <div className="flex flex-auto flex-col items-center justify-center">
@@ -100,12 +104,18 @@ export default function AdvertPage() {
                 </div>
               </div>
             </div>
+            
 
-            <FAQ />
-
+            <div id="FAQ"></div>
+            <div className=" mt-32">
+               <FAQ />
+            </div>
+           
+            <div id="about"></div>
             <Footer />
+
           </div>
-        </div>
+       
       </div>
     </div>
   );

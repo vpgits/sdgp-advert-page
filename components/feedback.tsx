@@ -14,10 +14,10 @@ import {
 const Feedback = () => {
   return (
     <>
-      <div className="flex flex-auto gap-5 m-4 items-center justify-center flex-col md:flex-row">
+      <div  className="flex flex-auto gap-5 m-4 items-center justify-center flex-col md:flex-row"  >
         {feedbacks.map((feedback, index) => {
           return (
-            <div key={index}>
+            <div key={index} >
               {/* <h1 className="text-4xl text-center mt-20">{feedback.text}</h1>
 
               <div className="flex justify-center">
@@ -117,7 +117,7 @@ const Feedback = () => {
 export function RatingCard(feedbackData: any) {
   const { feedback, index } = feedbackData;
   return (
-    <Card className="max-w-xs min-h-96 flex items-center ">
+    <Card className="max-w-xs min-h-96 flex items-center " >
       <CardContent>
         <Image
           src={feedback.image}
