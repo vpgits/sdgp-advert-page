@@ -29,7 +29,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
          >
-          <div className="flex flex-auto flex-col h-screen">
+          <div className="flex flex-auto flex-col h-screen justify-end items-end">
             <Header />
             <div className="h-full mt-12">{children}</div>
           </div>
