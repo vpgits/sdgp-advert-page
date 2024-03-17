@@ -101,28 +101,28 @@ export default async function Header() {
                   </Link>
                   <Link
                     className="text-lg font-medium hover:underline"
-                    href="/dashboard"
+                    href="#review"
                   >
-                    Dashboard
+                    Reviwes
                   </Link>
 
                   <Link
                     className="text-lg font-medium hover:underline"
-                    href="#"
+                    href="#features"
                   >
-                    Profile
+                    Features
                   </Link>
                   <Link
                     className="text-lg font-medium hover:underline"
-                    href="#"
+                    href="#FAQ"
                   >
-                    About
+                    FAQ
                   </Link>
                   <Link
                     className="text-lg font-medium hover:underline"
-                    href="#"
+                    href="#about"
                   >
-                    Contact Us
+                     About
                   </Link>
                   {/* {!loggedIn ? (
                     <Link href="/login">
