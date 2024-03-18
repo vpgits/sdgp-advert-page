@@ -42,7 +42,7 @@ const Footer = () => {
             <ButtonAsChild />
           </div>
         </div>
-        <div className="space-y-4 text-center mt-10 ">
+        {/* <div className="space-y-4 text-center mt-10 ">
           <h3 className="text-lg font-semibold  mx-auto">Activity</h3>
           <ul className="space-y-2  mx-auto">
             <li>
@@ -61,7 +61,8 @@ const Footer = () => {
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
+        
         <div className="space-y-4 text-center">
           <h3 className="text-lg font-semibold  mt-10 ">Contact</h3>
           <p className="text-sm">123 Main Street, City, Country</p>
