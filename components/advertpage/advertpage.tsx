@@ -21,7 +21,9 @@ export default function AdvertPage() {
               AI quizzes Generator
             </div>
             <Link href="https://quizzifyme.venura.dev/" >
-                <Button className="bg-blue-400 hover:bg-blue-500 text-white text-xl font-bold py-6 px-12 rounded-full mt-10">
+                <Button className="bg-blue-400 hover:bg-blue-500
+                 text-white text-xl font-bold py-6 px-12 rounded-full mt-10
+                 hover:scale-105 transition-transform duration-300">
                   Get Started
                 </Button>
             </Link>
