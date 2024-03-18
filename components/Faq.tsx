@@ -14,8 +14,8 @@ import faqData from "../public/home/faq.json";
 export function accordion() {
   return (
     <div className="flex items-center flex-col justify-center m-10 md:m-5">
-      <h1 className="text-4xl text-center">FAQ</h1>
-      <Image src={faq} alt="faq" height={50} width={100} className="" />
+      <h1 className="text-4xl text-center mb-8">FAQ</h1>
+      <Image src={faq} alt="faq" height={50} width={300} className="" />
       <Accordion
         type="single"
         collapsible
