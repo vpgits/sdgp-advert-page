@@ -10,7 +10,7 @@ export default function Component() {
   return (
 
     <ScrollIntoView>
-    <section className="w-full py-12 px-4 ">
+    <section className="w-full py-12 px-4 my-28">
       <div className="flex flex-col items-center mb-20">
         <h1 className="text-3xl font-bold tracking-tight mb-3">Pricing Plans</h1>
         <p className="text-gray-600 dark:text-gray-400 max-w-2xl text-center">

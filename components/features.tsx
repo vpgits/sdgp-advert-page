@@ -22,7 +22,7 @@ export default function Component() {
   return (
 
     <ScrollIntoView>
-    <section  className="w-full py-12 px-4">
+    <section  className="w-full py-12 px-4 my-36 mt-44">
        <div className="text-3xl font-bold pb-7 text-center">Features</div>
             <div className=" text-center">
               <div className="lg:flex lg:flex-auto lg:flex-row justify-center">

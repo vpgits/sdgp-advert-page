@@ -1,4 +1,5 @@
 //code author: Anuda Gunarathna
+"use client"
 
 import React from "react";
 import Image from "next/image";
@@ -10,9 +11,13 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import faqData from "../public/home/faq.json";
+import ScrollIntoView from "./scrollOnView";
 
 export function accordion() {
   return (
+   
+    <ScrollIntoView>
+
     <div className="flex items-center flex-col justify-center m-10 md:m-5">
       <h1 className="text-4xl text-center mb-8">FAQ</h1>
       <Image src={faq} alt="faq" height={50} width={300} className="" />
@@ -31,6 +36,7 @@ export function accordion() {
         })}
       </Accordion>
     </div>
+    </ScrollIntoView>
   );
 }
 

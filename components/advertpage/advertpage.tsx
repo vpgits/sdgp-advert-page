@@ -10,7 +10,7 @@ import Pricing from "../pricing";
 
 export default function AdvertPage() {
   return (
-    <div className="flex flex-auto w-full justify-center" >
+    <div className="flex flex-auto w-full justify-center my-16" >
       <div className=" mt-56 " >
         <div className="text-center">
             <div className="text-5xl font-bold">

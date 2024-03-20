@@ -29,7 +29,7 @@ const ScrollIntoView = ({ children }: { children: React.ReactNode }) => {
   }, []); // Only run once on mount
 
   return (
-    <div ref={elementRef} style={{ opacity: isVisible ? 1 : 0, transition: 'opacity 1s' }}>
+    <div ref={elementRef} style={{ opacity: isVisible ? 1 : 0, transition: 'opacity 3s' }}>
       {children}
     </div>
   );
