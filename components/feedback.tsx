@@ -14,7 +14,7 @@ import {
 const Feedback = () => {
   return (
     <>
-      <div  className="flex flex-auto gap-5 m-4 items-center justify-center flex-col md:flex-row"  >
+      <div  className="flex flex-auto gap-5 items-center justify-center flex-col md:flex-row"  >
         {feedbacks.map((feedback, index) => {
           return (
             <div key={index} >

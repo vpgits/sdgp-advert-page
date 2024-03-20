@@ -10,8 +10,8 @@ import git from "../public/github.png";
 
 const ButtonAsChild = () => {
   return (
-    <Button asChild className="bg-blue-900 ">
-      <Link className="mx-auto block dark:text-white" href="/login">
+    <Button asChild className="bg-blue-500 hover:bg-blue-500">
+      <Link className="mx-auto block" href="/login">
         Learn More
       </Link>
     </Button>

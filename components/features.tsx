@@ -1,4 +1,9 @@
+"use client"
+
 import Image from "next/image";
+
+import ScrollIntoView from "./scrollOnView";
+
 import InteractiveQuizzes from "../public/InteractiveQuizzes.png";
 import Feedback from "../public/Real-time-Feedback.png";
 import conprehensiveCoverage from "../public/Comprehensive-Subject-Coverage.png";
@@ -6,9 +11,18 @@ import communityEngagement from "../public/Community-Engagement.png";
 import recommendations from "../public/AI-Powered-Recommendations.png";
 import userinterface from "../public/User-Friendly-Interface.png";
 
+
+
+
 export default function Component() {
+
+
+
+
   return (
-    <section className="w-full py-12 px-4">
+
+    <ScrollIntoView>
+    <section  className="w-full py-12 px-4 my-36 mt-44">
        <div className="text-3xl font-bold pb-7 text-center">Features</div>
             <div className=" text-center">
               <div className="lg:flex lg:flex-auto lg:flex-row justify-center">
@@ -73,7 +87,15 @@ export default function Component() {
               </div>
             </div>
     </section>
+    </ScrollIntoView>
+
+
   )
+
+
+
+  
+
 }
 
 
