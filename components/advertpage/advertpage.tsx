@@ -41,11 +41,15 @@ export default function AdvertPage() {
         </ScrollIntoView>
 
            <ScrollIntoView>
-            <div className="flex flex-auto justify-center">
-            <Image 
-            src={LaptopImage2}
-             alt="laptop" 
-             className=" w-3/4 mt-60"/>
+           
+           <div className=" mt-72">
+            <h1 className=" text-center font-bold lg:text-9xl text-4xl">How It Works</h1>
+              <div className="flex flex-auto justify-center">
+              <Image 
+              src={LaptopImage2}
+              alt="laptop" 
+              className=" lg:w-3/4 w-full"/>
+              </div>
             </div>
             </ScrollIntoView>
 
