@@ -32,11 +32,12 @@ export default async function Header() {
             <Link className="text-sm font-medium hover:underline" href="/">
               Home
             </Link>
+
               <Link
-                href="#review"
+                href="#HowItWorks"
                 className="text-sm font-medium hover:underline "
               >
-              Reviwes
+              How It Works
             </Link>
             {/* <div className="absolute hidden group-hover:block bg-white shadow-md py-2 px-4 top-full mt-1">
               <Link
@@ -60,6 +61,13 @@ export default async function Header() {
             </div> */}
 
             {/* End of Activity Dropdown */}
+
+            <Link
+              className="text-sm font-medium hover:underline"
+              href="#pricing"
+            >
+              Pricing
+            </Link>
 
             <Link
               className="text-sm font-medium hover:underline"
@@ -108,11 +116,11 @@ export default async function Header() {
                     Home
                   </Link>
                   <Link
-                    className="text-lg font-medium hover:underline"
-                    href="#review"
+                   href="#HowItWorks"
+                  className="text-lg font-medium hover:underline "
                   >
-                    Reviwes
-                  </Link>
+                  How It Works
+                 </Link>
 
                   <Link
                     className="text-lg font-medium hover:underline"

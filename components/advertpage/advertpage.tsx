@@ -8,7 +8,6 @@ import Link from "next/link";
 import { Button } from "../ui/button";
 import ProductIntro from "../productIntorduction";
 import Features from "../features";
-import UserFeedback from "../feedback";
 import FAQ from "../Faq";
 import Footer from "../footer";
 import Pricing from "../pricing";
@@ -40,8 +39,8 @@ export default function AdvertPage() {
         </div>
         </ScrollIntoView>
 
+           <div id='HowItWorks'></div>
            <ScrollIntoView>
-           
            <div className=" mt-72">
             <h1 className=" text-center font-bold lg:text-9xl text-4xl">How It Works</h1>
               <div className="flex flex-auto justify-center">
@@ -56,21 +55,14 @@ export default function AdvertPage() {
             <div>
             <ProductIntro />
             </div>
-            
-
-
-          {/* <div id="review"></div>
-          <div  className=" mt-56 " >
-            <UserFeedback />
-          </div> */}
-
+          
         
           <div id='features'></div>
           <div>
             <Features />
           </div>
 
-          <div id=""></div>
+          <div id="pricing"></div>
           <div className="">
             <Pricing />
           </div>
