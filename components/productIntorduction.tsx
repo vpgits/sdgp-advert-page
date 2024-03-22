@@ -36,7 +36,7 @@ export default function Component() {
                 </div>
            
               
-              <div className="lg:flex lg:flex-auto  mt-36">
+              <div className="lg:flex lg:flex-auto ">
                 <div className="flex flex-col-reverse lg:flex-row  justify-center mt-36">
                  
                  <div className=" my-3 text-center lg:ml-10">
@@ -58,7 +58,7 @@ export default function Component() {
 
               </div>
 
-              <div className="lg:flex lg:flex-auto mt-36">
+              <div className="lg:flex lg:flex-auto ">
                 <div className="flex flex-col lg:flex-row  items-center">
                   <Image
                     src={Phonelaptop}
