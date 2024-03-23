@@ -11,7 +11,7 @@ import git from "../public/github.png";
 const ButtonAsChild = () => {
   return (
     <Button asChild className="bg-blue-500 hover:bg-blue-500">
-      <Link className="mx-auto block" href="/login">
+      <Link  className="mx-auto block" href="https://quizzifyme.venura.dev/login">
         Learn More
       </Link>
     </Button>

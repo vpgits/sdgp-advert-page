@@ -122,6 +122,13 @@ export default async function Header() {
                   How It Works
                  </Link>
 
+                 <Link
+                  className="text-lg font-medium hover:underline"
+                  href="#pricing"
+                   >
+                    Pricing
+                  </Link>
+
                   <Link
                     className="text-lg font-medium hover:underline"
                     href="#features"
