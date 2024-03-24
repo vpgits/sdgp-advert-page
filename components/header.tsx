@@ -1,3 +1,5 @@
+
+
 import React from "react";
 import Image from "next/image";
 import { ModeToggle } from "@/components/modetoggle";
@@ -5,27 +7,18 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { GlobeIcon, HamburgerMenuIcon } from "@radix-ui/react-icons";
-import Quizzifyme from "../public/logo-max.png";
-// import { cookies } from "next/headers";
-// import { createClient } from "@/utils/supabase/server";
+
 
 export default async function Header() {
-//   const cookieStore = cookies();
-//   const supabase = createClient(cookieStore);
-//   const { data } = await supabase.auth.getUser();
-//   const loggedIn = data?.user !== null;
+
   return (
+        
+   
     <div className="fixed w-full top-0 rounded-full z-10">
-      <div className="flex items-center justify-center px-5 py-4   dark:bg-slate-950 text-black bg-white dark:text-white ">
+      <div className="flex items-center justify-center px-5 py-4 mx-1   dark:bg-slate-950 rounded-b-full rounded-r-full rounded-l-full shadow-2xl text-black md:mx-5  shadow-slate-600 dark:shadow-bg-slate-800  bg-slate-100  dark:text-white">
         <div className="w-10/12 flex flex-auto items-center justify-between">
           <Link className="flex justify-start" href="/">
             <GlobeIcon className="h-6 w-6" />
-            {/* <Image
-              src={Quizzifyme}
-              alt="Quizzifyme"
-              height={50}
-              width={50}
-              className="mx-auto block"/>  */}
             <h1 className="ml-2 text-lg font-semibold">Quizzifyme</h1>
           </Link>
           <nav className="hidden md:flex flex-auto items-center justify-center gap-4">
@@ -164,5 +157,6 @@ export default async function Header() {
         </div>
       </div>
     </div>
+   
   );
 }

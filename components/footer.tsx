@@ -10,8 +10,8 @@ import git from "../public/github.png";
 
 const ButtonAsChild = () => {
   return (
-    <Button asChild className="bg-blue-500 hover:bg-blue-500">
-      <Link  className="mx-auto block" href="https://quizzifyme.venura.dev/login">
+    <Button asChild className="bg-blue-900 hover:bg-blue-900 ">
+      <Link className="mx-auto block dark:text-white" href="/login">
         Learn More
       </Link>
     </Button>
@@ -21,7 +21,7 @@ const ButtonAsChild = () => {
 const Footer = () => {
   return (
     <>
-      <footer className="text-sm bg-slate-900 text-white flex flex-auto flex-col md:flex-row items-center justify-evenly mt-5 md:mt-20 w-screen">
+      <footer className="text-sm bg-slate-900 text-white flex flex-auto flex-col md:flex-row items-center justify-evenly mt-5 md:mt-20">
         <div className="space-y-4  md:w-1/3 m-10 ">
           <h3 className="text-lg font-semibold mt-10 text-center">
             {" "}
@@ -42,32 +42,46 @@ const Footer = () => {
             <ButtonAsChild />
           </div>
         </div>
-        {/* <div className="space-y-4 text-center mt-10 ">
-          <h3 className="text-lg font-semibold  mx-auto">Activity</h3>
-          <ul className="space-y-2  mx-auto">
+        <div className="space-y-4 text-center mt-10 ">
+          {/* <h3 className="text-lg font-semibold  mx-auto">Activity</h3> */}
+          {/* <ul className="space-y-2  mx-auto">
             <li>
               <a href="#" className="text-sm hover:underline">
-                Service 1
+                PDF to word document
               </a>
             </li>
             <li>
               <a href="#" className="text-sm hover:underline">
-                Service 2
+                PDF to Quiz
               </a>
             </li>
             <li>
               <a href="#" className="text-sm hover:underline">
-                Service 3
+                Highscore Board
               </a>
             </li>
-          </ul>
-        </div> */}
-        
+            <li>
+              <a href="#" className="text-sm hover:underline">
+                History
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-sm hover:underline">
+                Game
+              </a>
+            </li>
+          </ul> */}
+        </div>
         <div className="space-y-4 text-center">
           <h3 className="text-lg font-semibold  mt-10 ">Contact</h3>
-          <p className="text-sm">123 Main Street, City, Country</p>
-          <p className="text-sm">Phone: +1 (123) 456-7890</p>
-          <p className="text-sm">Email: info@example.com</p>
+          <p className="text-sm">1 Raymond Rd, Nugegoda 10250, Sri Lanka</p>
+          <p className="text-sm">Phone: +94 (11) 5 555 555</p>
+          <p className="text-sm">
+            Email:{" "}
+            <a href="mailto:quizzifyme.cs06@gmail.com">
+              quizzifyme.cs06@gmail.com
+            </a>
+          </p>
           <div className="flex">
             <Image
               src={wa}
